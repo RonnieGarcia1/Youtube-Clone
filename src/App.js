@@ -1,12 +1,31 @@
 import './App.css';
+import Home from './Components/Home';
+import About from './Components/About';
+import Videos from './Components/Videos'
+import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-     Hello world
-      </header>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <Link to="/"><h1>Home</h1></Link>
+          <Link to="/about"><h1>About Us</h1></Link>
+        </nav>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route path="/videos/:id"/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
