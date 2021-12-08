@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
 
 class Home extends Component{
