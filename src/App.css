@@ -2,6 +2,11 @@
     background-color: rgb(58, 58, 58);
 }
 
+  #yt-logo {
+    display:grid;
+    width: 500px;
+  }
+
   nav {
     text-align: center;
     display: grid;
@@ -10,13 +15,15 @@
   }
   
   nav a{
+    text-align: center;
     color: white;
     text-decoration: none;
-    padding: 60px;
+    padding: 100px;
     transition: .5s;
   }
   
   nav a:hover{
+    text-align: center;
     background-color: rgb(58, 58, 58);
     color: rgb(255, 255, 255);
   }
