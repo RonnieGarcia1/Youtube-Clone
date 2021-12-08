@@ -8,7 +8,6 @@ class Home extends Component{
         .then(data => console.log(data));
     }
 
-
     render(){
         return(
             <div>
