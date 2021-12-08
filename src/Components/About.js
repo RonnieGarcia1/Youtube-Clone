@@ -1,13 +1,13 @@
 import { Component } from 'react';
-import Home from './Components/About';
-import Home from './Components/Home';
-import Home from './Components/Videos';
+// import About from './Components/About';
+// import Home from './Components/Home';
+// import Videos from './Components/Videos';
 
 class About extends Component{
     render(){
         return(
          <div>
-            <Router>
+            {/* <Router>
             <div>
               <nav>
                 <Link to="/"><h1>Home</h1></Link>
@@ -21,7 +21,7 @@ class About extends Component{
                 <Video />
               </Switch>
             </div>
-          </Router>
+          </Router> */}
            <div className='About'>
                     <h2>About</h2>
                     <p>
@@ -39,10 +39,10 @@ class About extends Component{
                     <p> 
                         Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
-                    <button>
-                        onClick={() => window.open('https://www.linkedin.com/in/ronniegarc1a/')}
-                        style={{ color:'blue', cursor: 'pointer' }}
-                    </button>
+                    <a href
+                        onClick={() => window.open('https://www.github.com/RonnieGarcia1')}
+                        style={{ color:'blue', cursor: 'pointer' }} />
+                    
                 </div>
                 <div>
                     <h3>Name Ping Louie</h3>
@@ -56,10 +56,10 @@ class About extends Component{
                         <br />
                         A fun fact about me is I have an interest in Chinese Costume, Dramas and Reading Manga.
                     </p>
-                    <button>
-                        onClick={() => window.open('https://www.linkedin.com/in/name-ping-louie-02a1131a2/')}
-                        style={{ color:'blue', cursor: 'pointer' }}
-                    </button>
+                    <a href
+                        onClick={() => window.open('https://www.github.com/namepinglouie')}
+                        style={{ color:'blue', cursor: 'pointer' }} />
+                    
                 </div>
                 <div>
                     <h3>Rob Walker</h3>
@@ -71,10 +71,10 @@ class About extends Component{
                         <br />
                         I'm a team player, a tech geek, a food enthusiast, who is up for almost anything. I want to advocacy for community, and equality. I like companies with strong ethics, committed to their employees, community and the environment.
                     </p>
-                    <button>
-                        onClick={() => window.open('https://www.linkedin.com/in/rob-w-141799203/')}
-                        style={{ color:'blue', cursor: 'pointer' }}
-                    </button>
+                    <a href
+                        onClick={() => window.open('https://www.github.com/RobWalker-NYC')}
+                        style={{ color:'blue', cursor: 'pointer' }} />
+                    
                 </div>
                 <div>
                     <h3>Cesar Ortiz</h3>
@@ -82,10 +82,10 @@ class About extends Component{
                     <p> 
                         Cesar, please full in your bio here. Currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
-                    <button>
-                        onClick={() => window.open('https://www.ceazthemoment@aol.com')}
-                        style={{ color:'blue', cursor: 'pointer' }}
-                    </button>
+                    <a href
+                        onClick={() => window.open('https://www.github.com/CeazTheMoment')}
+                        style={{ color:'blue', cursor: 'pointer' }} />
+                    
                 </div>
             </div>
           </div>  
