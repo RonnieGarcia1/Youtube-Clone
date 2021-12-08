@@ -1,8 +1,14 @@
 import { Component } from 'react';
-import { Link } from 'react-router-dom';
-import YouTube from 'react-youtube';
 
 class Home extends Component{
+    
+    componentDidMount(){
+        fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=dog&type=video&key=${process.env.REACT_APP_API_KEY}`)
+        .then(res => res.json())
+        .then(data => console.log(data));
+    }
+
+
     render(){
         return(
             <div>
@@ -16,7 +22,6 @@ class Home extends Component{
         <div className="video-thumbnails">
             Video Thumbnail
         </div>
-        {/* <Link to="/about">About page with router</Link> */}
       </div>
         )
     }
