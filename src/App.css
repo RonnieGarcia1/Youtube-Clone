@@ -1,5 +1,5 @@
   body{
-    background-color: rgb(58, 58, 58);
+    background-color: white
 }
 
   #yt-logo {
@@ -12,14 +12,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(255, 30, 34);
-    
+    font-size: 20px;
   }
   
   nav a{
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 100px;
+    padding: 20px;
     transition: .5s;
   }
   
@@ -29,9 +29,29 @@
     color: rgb(255, 255, 255);
   }
 
-  .search-bar {
+  #search-bar {
       text-align: center;
   }
 
+  #text-input {
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  #text-input:focus {
+    outline: none;
+  }
+
+  #search-button {
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
   
   

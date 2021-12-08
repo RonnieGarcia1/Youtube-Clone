@@ -10,8 +10,9 @@ const App = () => {
     <Router>
       <div>
         <nav>
-          <Link to="/"><h1>Home</h1></Link>
-          <Link to="/about"><h1>About Us</h1></Link>
+          <a href="">YouTube</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About Us</Link>
         </nav>
         <Switch>
           <Route exact path="/">
