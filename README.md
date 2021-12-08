@@ -12,5 +12,3 @@ Invite: https://trello.com/invite/b/HJuy7csl/0db34ad47ab5b9eaf956b8673efd0c73/ka
 # Members
 
 Name Ping Louie , Rob Walker, Cesar Ortiz, Ronnie Garcia
-
-this is a test, will delete this
