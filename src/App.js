@@ -23,9 +23,7 @@ const App = () => {
           <Route path="/about">
             <About />
           </Route>
-
-          <Route path="/videos/:id">
-            <Videos />
+          <Route path="/videos/:id" component={Videos}>
           </Route>
         </Switch>
       </div>
