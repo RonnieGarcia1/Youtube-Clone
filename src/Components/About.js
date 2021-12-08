@@ -1,4 +1,6 @@
 import { Component } from 'react';
+
+
 class About extends Component{
     render(){
         return(
@@ -20,7 +22,8 @@ class About extends Component{
                     <p> 
                         Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
-                    <a href="'https://www.github.com/RonnieGarcia1'">Ronnie Garcia's GitHub</a>
+                    <a href='https://www.github.com/RonnieGarcia1'>Ronnie's GitHub</a>
+                        
                     
                 </div>
                 <div>
@@ -35,8 +38,8 @@ class About extends Component{
                         <br />
                         A fun fact about me is I have an interest in Chinese Costume, Dramas and Reading Manga.
                     </p>
-                    <a href='https://www.github.com/namepinglouie'>Name Ping Louie's GitHub</a>
-                   
+                    <a href='https://www.github.com/namepinglouie' >Ping's GitHub</a>
+                    
                 </div>
                 <div>
                     <h3>Rob Walker</h3>
@@ -48,7 +51,7 @@ class About extends Component{
                         <br />
                         I'm a team player, a tech geek, a food enthusiast, who is up for almost anything. I want to advocacy for community, and equality. I like companies with strong ethics, committed to their employees, community and the environment.
                     </p>
-                    <a href= 'https://www.github.com/RobWalker-NYC'>Rob Walker's Github</a>
+                    <a href='https://www.github.com/RobWalker-NYC' >Rob's GitHub</a>
                     
                 </div>
                 <div>
@@ -57,7 +60,9 @@ class About extends Component{
                     <p> 
                         Cesar, please full in your bio here. Currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
-                    <a href='https://www.github.com/CeazTheMoment'>Cesar Ortiz</a>
+              
+                    <a href='https://www.github.com/CeazTheMoment'>Cesar's GitHub</a>
+                    
                 </div>
             </div>
           </div>  
