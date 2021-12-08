@@ -6,18 +6,14 @@ class Home extends Component{
     render(){
         return(
             <div>
-        
-        <form className="search-bar">
-            <input>
-            
-            </input>
-        </form>
-        
-        <div className="video-thumbnails">
-            Video Thumbnail
-        </div>
-        {/* <Link to="/about">About page with router</Link> */}
-      </div>
+                <form id="search-bar">
+                    <input id="text-input" />
+                    <button id="search-button">Search</button>
+                </form>
+                <div className="video-thumbnails">
+                    Video Thumbnail
+                </div>
+            </div>
         )
     }
   }
