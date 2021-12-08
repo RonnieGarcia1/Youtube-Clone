@@ -9,9 +9,9 @@ class About extends Component{
                     <h2>About</h2>
                     <p>
                         This YouTube clone was created by four great developers and A.K.A 1/2 of the 24/[7] group. 
-                        <b/>
+                        <br />
                         Have fun with the app. Please contact us with any suggestions for future iterations. 
-                        <b/>
+                        <br />
                         You can contact us through our links listed below.
                     </p>
                     <hr />
