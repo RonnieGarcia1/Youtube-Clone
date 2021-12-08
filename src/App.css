@@ -1,0 +1,29 @@
+  body{
+    background-color: rgb(58, 58, 58);
+}
+
+  nav {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(255, 30, 34);
+  }
+  
+  nav a{
+    color: white;
+    text-decoration: none;
+    padding: 60px;
+    transition: .5s;
+  }
+  
+  nav a:hover{
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+  }
+
+  .search-bar {
+      text-align: center;
+  }
+
+  
+  

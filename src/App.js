@@ -1,7 +1,10 @@
-import YouTube from 'youtube-react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
+import About from './Components/About';
+import Videos from './Components/Videos'
+import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
+<<<<<<< HEAD
 function App() {
   fetch(
     `https://youtube.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}`
@@ -23,5 +26,31 @@ function App() {
 
 
 
+=======
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <nav>
+          <Link to="/"><h1>Home</h1></Link>
+          <Link to="/about"><h1>About Us</h1></Link>
+        </nav>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route path="/videos/:id"/>
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+>>>>>>> 0a64b41734c29496707d5d8f9366d931bd8ee7cd
 
 export default App;

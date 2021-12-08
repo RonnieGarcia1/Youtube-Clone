@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Deployed via Netlify: 
+Deployed via Netlify: https://yt-clone-984761293641.netlify.app/
 
 ## Trello Board
 
