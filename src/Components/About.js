@@ -1,27 +1,10 @@
 import { Component } from 'react';
-// import About from './Components/About';
-// import Home from './Components/Home';
-// import Videos from './Components/Videos';
+
 
 class About extends Component{
     render(){
         return(
          <div>
-            {/* <Router>
-            <div>
-              <nav>
-                <Link to="/"><h1>Home</h1></Link>
-                <Link to="/videos"><h1>Videos</h1></Link>
-              </nav>
-              <Switch>
-                <Route exact path="/">
-                  <Home />
-                </Route>
-                <Route path="/videos/:id"/>
-                <Video />
-              </Switch>
-            </div>
-          </Router> */}
            <div className='About'>
                     <h2>About</h2>
                     <p>
@@ -39,9 +22,8 @@ class About extends Component{
                     <p> 
                         Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
-                    <a href
-                        onClick={() => window.open('https://www.github.com/RonnieGarcia1')}
-                        style={{ color:'blue', cursor: 'pointer' }} />
+                    <a href='https://www.github.com/RonnieGarcia1'>Ronnie's GitHub</a>
+                        
                     
                 </div>
                 <div>
@@ -56,9 +38,7 @@ class About extends Component{
                         <br />
                         A fun fact about me is I have an interest in Chinese Costume, Dramas and Reading Manga.
                     </p>
-                    <a href
-                        onClick={() => window.open('https://www.github.com/namepinglouie')}
-                        style={{ color:'blue', cursor: 'pointer' }} />
+                    <a href='https://www.github.com/namepinglouie' >Ping's GitHub</a>
                     
                 </div>
                 <div>
@@ -71,9 +51,7 @@ class About extends Component{
                         <br />
                         I'm a team player, a tech geek, a food enthusiast, who is up for almost anything. I want to advocacy for community, and equality. I like companies with strong ethics, committed to their employees, community and the environment.
                     </p>
-                    <a href
-                        onClick={() => window.open('https://www.github.com/RobWalker-NYC')}
-                        style={{ color:'blue', cursor: 'pointer' }} />
+                    <a href='https://www.github.com/RobWalker-NYC' >Rob's GitHub</a>
                     
                 </div>
                 <div>
@@ -82,9 +60,8 @@ class About extends Component{
                     <p> 
                         Cesar, please full in your bio here. Currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
-                    <a href
-                        onClick={() => window.open('https://www.github.com/CeazTheMoment')}
-                        style={{ color:'blue', cursor: 'pointer' }} />
+              
+                    <a href='https://www.github.com/CeazTheMoment'>Cesar's GitHub</a>
                     
                 </div>
             </div>
