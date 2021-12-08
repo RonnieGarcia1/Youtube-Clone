@@ -12,7 +12,7 @@ class About extends Component{
                         <br />
                         Have fun with the app. Please contact us with any suggestions for future iterations. 
                         <br />
-                        You can contact us through our links listed below.
+                        You can contact us through our GitHub links listed below.
                     </p>
                     <hr />
                 
