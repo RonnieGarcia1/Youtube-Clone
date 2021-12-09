@@ -6,10 +6,10 @@ class About extends Component{
         return(
          
           <div className='allText'>
-            <div id='aboutpage'>
+            <div id='aboutPage'>
               <br />  <h2>About</h2>
                     <p>
-                        This YouTube clone was created by four great developers know on Trello as the "KanBan". 
+                        This YouTube clone was created by some awesome developers listed below. 
                         <br />
                         Our application allows users to search YouTube for videos using an external API. From the list of search results, the user may then choose a video to watch.
                         <br />
