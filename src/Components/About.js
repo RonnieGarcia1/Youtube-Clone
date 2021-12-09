@@ -8,11 +8,11 @@ class About extends Component{
            <div className='About'>
                     <h2>About</h2>
                     <p>
-                        This YouTube clone was created by four great developers and A.K.A 1/2 of the 24/[7] group. 
-                        <b/>
+                        This YouTube clone was created by four great developers, other wise known as the other half of 8.2's 24/[7] squad  KanBan. 
+                        <br />
                         Have fun with the app. Please contact us with any suggestions for future iterations. 
-                        <b/>
-                        You can contact us through our links listed below.
+                        <br />
+                        You can contact us through our GitHub  listed below.
                     </p>
                     <hr />
                 
@@ -20,7 +20,7 @@ class About extends Component{
                     <h3>Ronnie Garcia</h3>
                     <p>Full Stack Web Developer</p>
                     <p> 
-                        Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Goggle funded Full Stack Web Development program.
+                        Ronnie, please fill in your bio here. Native New Yorker, currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
                     <a href='https://www.github.com/RonnieGarcia1'>Ronnie's GitHub</a>
                         
@@ -30,7 +30,7 @@ class About extends Component{
                     <h3>Name Ping Louie</h3>
                     <p>Full Stack Web Developer</p>
                     <p> 
-                        Ping, please full in your bio here. Lives in New York, currently a Full Stack Web Development with a background in adode creative suite and microsoft. 
+                        Ping, please fill in your bio here. Lives in New York, currently a Full Stack Web Development with a background in adode creative suite and microsoft. 
                         <br /> 
                         Knows conversational cantonese, taishaneese and has worked as a cashier at basanova ramen.
                         <br />
@@ -58,7 +58,7 @@ class About extends Component{
                     <h3>Cesar Ortiz</h3>
                     <p>Full Stack Web Developer</p>
                     <p> 
-                        Cesar, please full in your bio here. Currently enrolled in a one year Goggle funded Full Stack Web Development program.
+                        Cesar, please fill in your bio here. Currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
               
                     <a href='https://www.github.com/CeazTheMoment'>Cesar's GitHub</a>
