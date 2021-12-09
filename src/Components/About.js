@@ -15,15 +15,6 @@ class About extends Component{
                     <hr />
                 
                 <div>
-                    <h3>Ronnie Garcia</h3>
-                    <p>Full Stack Web Developer</p>
-                    <p> 
-                        Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Google funded Full Stack Web Development program.
-                    </p>
-                    <a href="'https://www.github.com/RonnieGarcia1'">Ronnie Garcia's GitHub</a>
-                    
-                </div>
-                <div>
                     <h3>Name Ping Louie</h3>
                     <p>Full Stack Web Developer</p>
                     <p> 
@@ -58,6 +49,15 @@ class About extends Component{
                         Cesar, please full in your bio here. Currently enrolled in a one year Goggle funded Full Stack Web Development program.
                     </p>
                     <a href='https://www.github.com/CeazTheMoment'>Cesar Ortiz</a>
+                </div>
+                <div>
+                    <h3>Ronnie Garcia</h3>
+                    <p>Full Stack Web Developer</p>
+                    <p> 
+                        Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Google funded Full Stack Web Development program.
+                    </p>
+                    <a href="'https://www.github.com/RonnieGarcia1'">Ronnie Garcia's GitHub</a>
+                    
                 </div>
             </div>
           </div>  
