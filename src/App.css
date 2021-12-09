@@ -2,10 +2,25 @@
     background-color: white;
     
 }
+#hr{
+  background-color: red; height: 1px; border: 0;
+}
+#aboutpage{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.gitLink {
+  color: red;
+}
+
+.allText {
+  color: white
+}
 
   #yt-logo {
     display:grid;
-    width: 500px;
+    width: 50px;
   }
 
   nav {
@@ -20,7 +35,7 @@
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 0px;
     transition: .5s;
   }
   
