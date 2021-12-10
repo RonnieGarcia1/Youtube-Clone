@@ -2,6 +2,17 @@
     background-color: rgb(56, 56, 56);
     color: white;
 }
+#hr{
+  background-color: red; height: 1px; border: 0;
+}
+#aboutPage{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.gitLink {
+  color: red;
+}
 
 a{
   color: red;
