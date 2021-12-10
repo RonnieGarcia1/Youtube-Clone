@@ -1,7 +1,13 @@
   body{
-    background-color: rgb(58, 58, 58);
-    color: white
+    background-color: rgb(58, 58, 58); 
+    color: white;  
 }
+
+h4{
+  display: block;
+  color: white;
+}
+
 #hr{
   background-color: red; height: 1px; border: 0;
 }
@@ -24,14 +30,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(255, 30, 34);
-    
+    font-size: 20px;
   }
   
   nav a{
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: px;
+    padding: 20px;
     transition: .5s;
   }
   
@@ -41,9 +47,52 @@
     color: rgb(255, 255, 255);
   }
 
-  .search-bar {
+  #search-bar {
       text-align: center;
   }
 
+  #text-input {
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  #text-input:focus {
+    outline: none;
+  }
+
+  #search-button {
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
   
-  
+  .video-card {
+    margin: 40px;
+    text-align: center;
+  }
+
+  .videos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .videos div {
+    margin: 5px;
+  }
+
+  .video-thumbnails {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
+  }
