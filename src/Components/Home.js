@@ -34,10 +34,8 @@ class Home extends Component{
         })
         console.log(this.state.searchStr);
     }
-
     render(){
         let youtubeDataArr = this.state.data.map((video) =>{
-            console.log(video.snippet.thumbnails.default)
             return(
                 
                     <div key={video.id.videoId} className ="video-thumbnails">
@@ -49,7 +47,7 @@ class Home extends Component{
                     </div>
             )
             
-        })
+        });
         return(
             <div>
                 <form onSubmit={this.handleResult} id="search-bar">
@@ -62,6 +60,6 @@ class Home extends Component{
             </div>
         )
     }
-  }
+  };
 
   export default Home;
