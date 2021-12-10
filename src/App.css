@@ -1,15 +1,35 @@
   body{
+<<<<<<< HEAD
     background-color: rgb(56, 56, 56);
     color: white;
 }
 
 a{
   color: red;
+=======
+    background-color: rgb(58, 58, 58);   
+}
+
+#hr{
+  background-color: red; height: 1px; border: 0;
+}
+#aboutPage{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.gitLink {
+  color: red;
+}
+
+.allText {
+  color: white;
+>>>>>>> c37d8f7873fccfc94bbbf89dfb1188ebb48efa21
 }
 
   #yt-logo {
     display:grid;
-    width: 500px;
+    width: 50px;
   }
 
   nav {
