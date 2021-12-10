@@ -26,4 +26,5 @@ class Videos extends Component{
         )
     }
 }
+
 export default Videos;
