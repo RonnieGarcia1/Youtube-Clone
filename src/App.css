@@ -1,5 +1,10 @@
   body{
-    background-color: white
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+a{
+  color: red;
 }
 
   #yt-logo {
@@ -46,6 +51,7 @@
   }
 
   #search-button {
+    margin: 10px;
     height: 35px;
     width: 100px;
     background-color: red;
@@ -54,4 +60,17 @@
     color: white;
   }
   
-  
+  .video-card {
+    margin: 40px;
+    text-align: center;
+  }
+
+  .videos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .videos div {
+    margin: 5px;
+  }
