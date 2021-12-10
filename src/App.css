@@ -1,5 +1,6 @@
   body{
     background-color: rgb(58, 58, 58);
+    color: white
 }
 #hr{
   background-color: red; height: 1px; border: 0;
@@ -11,10 +12,6 @@
 
 .gitLink {
   color: red;
-}
-
-.allText {
-  color: white
 }
 
   #yt-logo {
