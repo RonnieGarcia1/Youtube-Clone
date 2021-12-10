@@ -56,8 +56,7 @@ class Home extends Component{
                     <button type="submit" id="search-button">Search</button>
                 </form>
                 <div className="video-thumbnails">
-                        {/* { this.handleErrors() } */}
-                        {youtubeDataArr}
+                            { youtubeDataArr }
                 </div>
             </div>
         )

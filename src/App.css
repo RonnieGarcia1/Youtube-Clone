@@ -83,8 +83,6 @@ h4{
 
   .videos {
     padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .videos div {

@@ -17,7 +17,7 @@ class Videos extends Component{
                 
                 <div className="videos">
                 <div>
-                <YouTube videoId={this.props.match.params.id} opts={{ height: '290', width: '540' }} />
+                <YouTube videoId={this.props.match.params.id} opts={{ height: '690', width: '1040' }} />
                 </div>
 
                 </div>
