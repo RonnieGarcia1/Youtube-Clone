@@ -17,9 +17,15 @@ class Home extends Component{
         .then(res => res.json())
         .then((ytData) => {
             this.setState({
-                data: ytData
+                data: ytData.items
             })
             console.log(this.state.data);
+            if(this.state.searchStr){
+                this.setState({
+                    searchStr: "",
+                })
+            }
+            
         });
     }
 
@@ -31,6 +37,18 @@ class Home extends Component{
     }
 
     render(){
+        let youtubeDataArr = this.state.data.map((video) =>{
+            console.log(video.snippet.thumbnails.default)
+            return(
+                
+                    <div className ="video-thumbnails">
+                        <img src={video.snippet.thumbnails.high.url} />
+                        <br />
+                        <h4>{video.snippet.title}</h4>
+                    </div>
+            )
+            
+        })
         return(
             <div>
                 <form onSubmit={this.handleResult} id="search-bar">
@@ -38,7 +56,7 @@ class Home extends Component{
                     <button type="submit" id="search-button">Search</button>
                 </form>
                 <div className="video-thumbnails">
-                    <Videos />
+                            { youtubeDataArr }
                 </div>
             </div>
         )
