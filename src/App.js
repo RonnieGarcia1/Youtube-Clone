@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <div>
         <nav>
-          <a href="">YouTube</a>
+          <Link to="/">YouTube</Link>
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
         </nav>
