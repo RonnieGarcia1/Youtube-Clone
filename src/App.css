@@ -1,21 +1,10 @@
   body{
-    background-color: rgb(58, 58, 58);   
+    background-color: rgb(56, 56, 56);
+    color: white;
 }
 
-#hr{
-  background-color: red; height: 1px; border: 0;
-}
-#aboutPage{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.gitLink {
+a{
   color: red;
-}
-
-.allText {
-  color: white;
 }
 
   #yt-logo {
@@ -62,6 +51,7 @@
   }
 
   #search-button {
+    margin: 10px;
     height: 35px;
     width: 100px;
     background-color: red;
@@ -70,4 +60,17 @@
     color: white;
   }
   
-  
+  .video-card {
+    margin: 40px;
+    text-align: center;
+  }
+
+  .videos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .videos div {
+    margin: 5px;
+  }

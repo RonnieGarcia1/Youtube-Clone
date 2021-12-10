@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Videos from './Videos';
 import YouTube from 'react-youtube';
 
 class Home extends Component{
@@ -37,7 +38,7 @@ class Home extends Component{
                     <button type="submit" id="search-button">Search</button>
                 </form>
                 <div className="video-thumbnails">
-                    Video Thumbnail
+                    <Videos />
                 </div>
             </div>
         )

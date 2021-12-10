@@ -102,7 +102,6 @@ class About extends Component{
         </div>  
         )
     }
-
 }
 
 export default About;
