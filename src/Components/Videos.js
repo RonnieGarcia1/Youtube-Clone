@@ -2,22 +2,22 @@ import { Component } from "react";
 import YouTube from 'react-youtube';
 
 class Videos extends Component{
-
+    constructor() {
+        super();
+        this.state = {
+            id: [],
+        }
+    }
     
     render(){
+        console.log(this.props.match.params.id)
         return(
             <div>
                 <div className="video-card">
                 
                 <div className="videos">
                 <div>
-                <YouTube videoId="AdUw5RdyZxI" opts={{ height: '290', width: '540' }} />
-                <p>EarthCam Live: Times Square in 4k</p>
-                </div>
-                
-                <div>
-                <YouTube videoId="AdUw5RdyZxI" opts={{ height: '290', width: '540' }} />
-                <p>EarthCam Live: Times Square in 4k</p>
+                <YouTube videoId={this.props.match.params.id} opts={{ height: '290', width: '540' }} />
                 </div>
 
                 </div>

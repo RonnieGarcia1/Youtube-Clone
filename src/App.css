@@ -1,13 +1,10 @@
   body{
-<<<<<<< HEAD
-    background-color: rgb(56, 56, 56);
-    color: white;
+    background-color: rgb(58, 58, 58);   
 }
 
-a{
-  color: red;
-=======
-    background-color: rgb(58, 58, 58);   
+h4{
+  display: block;
+  color: white;
 }
 
 #hr{
@@ -24,7 +21,6 @@ a{
 
 .allText {
   color: white;
->>>>>>> c37d8f7873fccfc94bbbf89dfb1188ebb48efa21
 }
 
   #yt-logo {
@@ -93,4 +89,13 @@ a{
 
   .videos div {
     margin: 5px;
+  }
+
+  .video-thumbnails {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
   }
