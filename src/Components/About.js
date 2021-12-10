@@ -5,11 +5,7 @@ class About extends Component{
     render(){
         return(
          
-<<<<<<< HEAD
           <div className='about'>
-=======
-          <div className='allText'>
->>>>>>> 2646ddc00d11f7d38076884ad61d30c212971c8e
             <div id='aboutPage'>
               <br />  <h2>About</h2>
                     <p>
@@ -102,17 +98,8 @@ class About extends Component{
                     <br />
 
                 </div>
-                <div>
-                    <h3>Ronnie Garcia</h3>
-                    <p>Full Stack Web Developer</p>
-                    <p> 
-                        Ronnie, please full in your bio here. Native New Yorker, currently enrolled in a one year Google funded Full Stack Web Development program.
-                    </p>
-                    <a href="'https://www.github.com/RonnieGarcia1'">Ronnie Garcia's GitHub</a>
-                    
-                </div>
             </div>
-        </div>  
+         </div>  
         )
     }
 }
