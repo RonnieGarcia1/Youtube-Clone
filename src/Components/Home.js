@@ -1,6 +1,5 @@
 import { Component } from 'react';
-import Videos from './Videos';
-import YouTube from 'react-youtube';
+import { Link } from 'react-router-dom';
 
 class Home extends Component{
     constructor() {
@@ -41,10 +40,12 @@ class Home extends Component{
             console.log(video.snippet.thumbnails.default)
             return(
                 
-                    <div className ="video-thumbnails">
+                    <div key={video.id.videoId} className ="video-thumbnails">
+                        <Link to={ "videos/" + video.id.videoId}>
                         <img src={video.snippet.thumbnails.high.url} />
                         <br />
                         <h4>{video.snippet.title}</h4>
+                        </Link>
                     </div>
             )
             
