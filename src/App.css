@@ -78,10 +78,17 @@ a{
 
   .videos {
     padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .videos div {
     margin: 5px;
+  }
+
+  .video-thumbnails {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
   }
