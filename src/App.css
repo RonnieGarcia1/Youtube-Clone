@@ -1,12 +1,7 @@
   body{
-    background-color: rgb(58, 58, 58);   
+    background-color: rgb(56, 56, 56);
+    color: white;
 }
-
-h4{
-  display: block;
-  color: white;
-}
-
 #hr{
   background-color: red; height: 1px; border: 0;
 }
@@ -19,8 +14,8 @@ h4{
   color: red;
 }
 
-.allText {
-  color: white;
+a{
+  color: red;
 }
 
   #yt-logo {
