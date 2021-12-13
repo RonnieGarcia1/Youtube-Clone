@@ -54,7 +54,7 @@ class Home extends Component{
                     <button type="submit" id="search-button"><strong>Search</strong></button>
                 </form>
                 <div className="video-thumbnails">
-                            { youtubeDataArr }
+                            { youtubeDataArr }                         
                 </div>
             </div>
         )
