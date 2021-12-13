@@ -40,13 +40,12 @@ class Home extends Component{
                 
                     <div key={video.id.videoId} className ="video-thumbnails">
                         <Link to={ "videos/" + video.id.videoId}>
-                        <img src={video.snippet.thumbnails.high.url} />
+                        <img src={video.snippet.thumbnails.high.url} alt="youtube thumbnail" />
                         <br />
                         <h4>{video.snippet.title}</h4>
                         </Link>
                     </div>
-            )
-            
+            ) 
         });
         return(
             <div>
