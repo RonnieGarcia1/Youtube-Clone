@@ -1,6 +1,5 @@
 import { Component } from 'react';
-import Videos from './Videos';
-import YouTube from 'react-youtube';
+import { Link } from 'react-router-dom';
 
 class Home extends Component{
     constructor() {
@@ -35,33 +34,31 @@ class Home extends Component{
         })
         console.log(this.state.searchStr);
     }
-
     render(){
         let youtubeDataArr = this.state.data.map((video) =>{
-            console.log(video.snippet.thumbnails.default)
             return(
                 
-                    <div className ="video-thumbnails">
-                        <img src={video.snippet.thumbnails.high.url} />
+                    <div key={video.id.videoId} className ="video-thumbnails">
+                        <Link to={ "videos/" + video.id.videoId}>
+                        <img src={video.snippet.thumbnails.high.url} alt="youtube thumbnail" />
                         <br />
                         <h4>{video.snippet.title}</h4>
+                        </Link>
                     </div>
-            )
-            
-        })
+            ) 
+        });
         return(
             <div>
                 <form onSubmit={this.handleResult} id="search-bar">
                     <input type="text" id="text-input" onChange={this.handleSearch} value={this.state.searchStr} />
-                    <button type="submit" id="search-button">Search</button>
+                    <button type="submit" id="search-button"><strong>Search</strong></button>
                 </form>
                 <div className="video-thumbnails">
-                        {/* { this.handleErrors() } */}
-                        {youtubeDataArr}
+                            { youtubeDataArr }                         
                 </div>
             </div>
         )
     }
-  }
+  };
 
   export default Home;

@@ -4,13 +4,12 @@ import About from './Components/About';
 import Videos from './Components/Videos'
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-
 const App = () => {
   return (
     <Router>
       <div>
         <nav>
-          <Link to="/">YouTube</Link>
+          <Link to="/"><strong>YouTube</strong></Link>
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
         </nav>

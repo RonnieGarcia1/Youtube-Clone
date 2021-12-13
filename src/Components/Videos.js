@@ -8,22 +8,15 @@ class Videos extends Component{
             id: [],
         }
     }
-    
     render(){
-        console.log(this.props.match.params.id)
         return(
-            <div>
-                <div className="video-card">
-                
+            <div className="video-card">
                 <div className="videos">
-                <div>
-                <YouTube videoId={this.props.match.params.id} opts={{ height: '290', width: '540' }} />
-                </div>
-
+                <div><YouTube videoId={this.props.match.params.id} opts={{ height: '690', width: '1040' }} /></div>
                 </div>
                 </div>
-            </div>
         )
     }
 }
+
 export default Videos;
