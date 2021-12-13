@@ -69,7 +69,7 @@ class About extends Component{
                         <br />
                         I'm a team player, a tech geek, a food enthusiast, who is up for almost anything. 
                         <br />
-                        I want to advocacy for community, and equality. 
+                        I want to advocate for community and equality. 
                         <br />
                         I like companies with strong ethics, committed to their employees, community and the environment.
                     </p>

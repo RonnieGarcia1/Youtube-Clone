@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <div>
         <nav>
-          <Link to="/">YouTube</Link>
+          <Link to="/"><strong>YouTube</strong></Link>
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
         </nav>

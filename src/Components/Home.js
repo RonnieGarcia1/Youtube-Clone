@@ -51,7 +51,7 @@ class Home extends Component{
             <div>
                 <form onSubmit={this.handleResult} id="search-bar">
                     <input type="text" id="text-input" onChange={this.handleSearch} value={this.state.searchStr} />
-                    <button type="submit" id="search-button">Search</button>
+                    <button type="submit" id="search-button"><strong>Search</strong></button>
                 </form>
                 <div className="video-thumbnails">
                             { youtubeDataArr }
