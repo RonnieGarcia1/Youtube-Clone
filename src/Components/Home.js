@@ -51,10 +51,16 @@ class Home extends Component{
             <div>
                 <form onSubmit={this.handleResult} id="search-bar">
                     <input type="text" id="text-input" onChange={this.handleSearch} value={this.state.searchStr} />
-                    <button type="submit" id="search-button"><strong>Search</strong></button>
+                    <button type="submit" id="search-button">Search</button>
                 </form>
-                <div className="video-thumbnails">
-                            { youtubeDataArr }                         
+                <div id="video-thumbnails">
+                            { youtubeDataArr }  
+                </div>
+                <div className='ytDataArr'>
+                {youtubeDataArr.length === 0 ? (
+                <div id='error'>
+                <p>No Search Results Yet !,  Please Submit a search above !</p>
+                </div>) : null }
                 </div>
             </div>
         )

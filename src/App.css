@@ -14,8 +14,12 @@ h4{
   padding-right: 50px;
 }
 
+#aboutPage p{
+  font-size: 20px;
+}
+
 .gitLink {
-  color: red;
+  font-size: 20px;
 }
 
 a{
@@ -23,8 +27,18 @@ a{
 }
 
   #yt-logo {
-    display:grid;
-    width: 50px;
+    text-align: center;  
+    width: 175px;
+    padding-top: 08px;
+  
+  }
+
+  #nav-home{
+    font-weight: 550;
+  }
+
+  #nav-about{
+    font-weight: 550;
   }
 
   nav {
@@ -32,14 +46,13 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(255, 30, 34);
-    font-size: 20px;
+    font-size: 25px;
   }
-  
+
   nav a{
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 20px;
     transition: .5s;
   }
   
@@ -49,20 +62,27 @@ a{
     color: rgb(255, 255, 255);
   }
 
+
   #search-bar {
       text-align: center;
+      font-size: 20px;
+    
   }
 
   #text-input {
     width: 400px;
     height: 30px;
-    margin-top: 50px;
+    margin-top: 90px;
     border-radius: 5px;
     border: 1px solid gray;
   }
 
   #text-input:focus {
     outline: none;
+  }
+
+  #text-input {
+    font-size: 22px;
   }
 
   #search-button {
@@ -73,6 +93,15 @@ a{
     border: none;
     border-radius: 5px;
     color: white;
+    font-size: 20px;
+    font-weight: 500;
+    
+  }
+
+  #error p{
+    text-align: center;
+    display: grid;
+    font-size: 25px;
   }
   
   .video-card {
@@ -88,12 +117,12 @@ a{
     margin: 5px;
   }
 
-  .video-thumbnails {
+  #video-thumbnails {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 50px;
     padding-right: 0px;
   }

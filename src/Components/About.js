@@ -11,7 +11,9 @@ class About extends Component{
                     <p>
                         This YouTube clone was created by some awesome developers listed below. 
                         <br />
-                        Our application allows users to search YouTube for videos using an external API. From the list of search results, the user may then choose a video to watch.
+                        Our application allows users to search YouTube for videos using an external API. 
+                        <br />
+                        From the list of search results, the user may then choose a video to watch.
                         <br />
                         Have fun with the app. Please contact us with any suggestions for future iterations. 
                         <br />
@@ -22,8 +24,9 @@ class About extends Component{
                    
                 <div>
                     <br />
-                    <h3>Ronnie Garcia</h3>
-                    <p>Full Stack Web Developer</p>
+                    <h2>Ronnie Garcia</h2>
+                    <img src='https://avatars.githubusercontent.com/u/86433181?v=4' alt='headshot' />
+                    <h3>Full Stack Web Developer</h3>
                     <p> 
                         Ronnie, please fill in your bio here. <br />
                         Etiam in felis at nisi iaculis ultrices.
@@ -41,17 +44,13 @@ class About extends Component{
 
                 </div>
                 <div>
-                    <h3>Name Ping Louie</h3>
-                    <p>Full Stack Web Developer</p>
+                    <h2>Name Ping Louie</h2>
+                    <img src='https://avatars.githubusercontent.com/u/72313206?v=4' alt='headshot' />
+                    <h3>Full Stack Web Developer</h3>
                     <p> 
-                        Ping, please fill in your bio here. <br />
-                        Mauris nec sapien ut dui mollis volutpat quis ac mauris. 
-                        Donec tristique dolor at fringilla ornare. 
-                        Integer luctus interdum suscipit. Morbi faucibus at sapien sit amet laoreet. 
-                        In hac habitasse platea dictumst. 
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                        Praesent volutpat sit amet erat euismod pretium. 
-                        In magna nisl, porta non dignissim at, luctus efficitur sem. 
+                        
+                        Full Stack Developer Fellow at Pursuit. Continuously learning JavaScript, HTML, CSS and React. <br />
+                        A fun fact about me is that I have an interest in Chinese costume dramas and reading Manga.
                     </p>
                     <a href='https://www.github.com/namepinglouie' className='gitLink'>Ping's GitHub</a>
                     <br />
@@ -60,8 +59,9 @@ class About extends Component{
 
                 </div>
                 <div>
-                    <h3>Rob Walker</h3>
-                    <p>Full Stack Web Developer</p>
+                    <h2>Rob Walker</h2>
+                    <img src='https://avatars.githubusercontent.com/u/75156944?v=4' alt='headshot' />
+                    <h3>Full Stack Web Developer</h3>
                     <p> 
                         Currently enrolled in a one year Goggle funded Full Stack Web Development program.
                         <br />
@@ -69,7 +69,7 @@ class About extends Component{
                         <br />
                         I'm a team player, a tech geek, a food enthusiast, who is up for almost anything. 
                         <br />
-                        I want to advocate for community and equality. 
+                        I advocate for community and equality. 
                         <br />
                         I like companies with strong ethics, committed to their employees, community and the environment.
                     </p>
@@ -80,8 +80,9 @@ class About extends Component{
 
                 </div>
                 <div>
-                    <h3>Cesar Ortiz</h3>
-                    <p>Full Stack Web Developer</p>
+                    <h2>Cesar Ortiz</h2>
+                    <img src='https://ca.slack-edge.com/TCVA3PF24-U023WM4UZBN-09209b1d0a79-72' alt='headshot' />
+                    <h3>Full Stack Web Developer</h3>
                     <p> 
                         Cesar, please fill in your bio here. <br />
                         Vestibulum consectetur magna vitae ex venenatis blandit. 
