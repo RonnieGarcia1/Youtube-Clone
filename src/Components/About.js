@@ -28,7 +28,7 @@ class About extends Component{
                     <img src='https://avatars.githubusercontent.com/u/86433181?v=4' alt='headshot' />
                     <h3>Full Stack Web Developer</h3>
                     <p> 
-                        Ronnie, please fill in your bio here. <br />
+                        
                         Etiam in felis at nisi iaculis ultrices.
                         Suspendisse potenti. Proin nec velit sit amet sapien sagittis vulputate eget ac eros. 
                         Pellentesque enim arcu, placerat suscipit lorem a, porttitor cursus augue. 
@@ -84,7 +84,7 @@ class About extends Component{
                     <img src='https://ca.slack-edge.com/TCVA3PF24-U023WM4UZBN-09209b1d0a79-72' alt='headshot' />
                     <h3>Full Stack Web Developer</h3>
                     <p> 
-                        Cesar, please fill in your bio here. <br />
+                        
                         Vestibulum consectetur magna vitae ex venenatis blandit. 
                         Aenean feugiat in elit sed pretium. Quisque erat lectus, 
                         porttitor nec quam non, facilisis imperdiet turpis. 
