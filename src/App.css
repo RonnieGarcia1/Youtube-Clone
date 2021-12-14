@@ -123,6 +123,6 @@ a{
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
     padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
   }
