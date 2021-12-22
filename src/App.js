@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';
-import Videos from './Components/Videos'
+import Videos from './Components/Videos';
+// import YouTube from './images/youtube-logo.png';
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 const App = () => {
@@ -9,9 +10,9 @@ const App = () => {
     <Router>
       <div>
         <nav>
-          <Link to="/"><strong>YouTube</strong></Link>
-          <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link>
+        <Link to="/"id="nav-home"><p><strong>YouTube</strong></p></Link>
+          <Link to="/" id="nav-home"><p>Home</p></Link>
+          <Link to="/about" id="nav-about"><p>About Us</p></Link>
         </nav>
         <Switch>
           <Route exact path="/">
